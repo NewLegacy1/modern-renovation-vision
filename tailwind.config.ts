@@ -15,7 +15,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
-        display: ['Playfair Display', 'Georgia', 'serif'],
+        display: ['Montserrat', 'system-ui', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -62,9 +62,9 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         gold: {
-          DEFAULT: "hsl(38 85% 55%)",
-          light: "hsl(40 80% 70%)",
-          dark: "hsl(30 80% 45%)",
+          DEFAULT: "hsl(43 74% 49%)",
+          light: "hsl(43 70% 60%)",
+          dark: "hsl(38 65% 42%)",
         },
         stone: {
           warm: "hsl(35 15% 92%)",
