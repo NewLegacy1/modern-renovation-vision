@@ -6,7 +6,7 @@
    Inspired by luxury architectural firms - warm neutrals, sophisticated accents
    All colors in HSL format */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @layer base {
   :root {
@@ -34,8 +34,8 @@
     --muted: 35 12% 94%;
     --muted-foreground: 220 10% 45%;
 
-    /* Accent - Warm gold/amber */
-    --accent: 38 85% 55%;
+    /* Accent - Metallic gold */
+    --accent: 43 74% 49%;
     --accent-foreground: 220 20% 12%;
 
     /* Destructive */
@@ -45,7 +45,7 @@
     /* Border & Input */
     --border: 35 20% 88%;
     --input: 35 20% 88%;
-    --ring: 38 85% 55%;
+    --ring: 43 74% 49%;
 
     --radius: 0.5rem;
 
@@ -61,10 +61,10 @@
 
     /* Custom design tokens */
     --gradient-hero: linear-gradient(135deg, hsl(220 20% 8% / 0.85) 0%, hsl(220 20% 15% / 0.7) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(38 85% 55%) 0%, hsl(30 80% 50%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(43 74% 49%) 0%, hsl(38 65% 42%) 100%);
     --shadow-soft: 0 4px 20px -4px hsl(220 20% 12% / 0.08);
     --shadow-elevated: 0 12px 40px -8px hsl(220 20% 12% / 0.12);
-    --shadow-accent: 0 8px 30px -6px hsl(38 85% 55% / 0.35);
+    --shadow-accent: 0 8px 30px -6px hsl(43 74% 49% / 0.35);
   }
 
   .dark {
@@ -80,13 +80,13 @@
     --secondary-foreground: 40 33% 98%;
     --muted: 220 15% 18%;
     --muted-foreground: 35 15% 65%;
-    --accent: 38 85% 55%;
+    --accent: 43 74% 49%;
     --accent-foreground: 220 20% 12%;
     --destructive: 0 62% 40%;
     --destructive-foreground: 0 0% 100%;
     --border: 220 15% 22%;
     --input: 220 15% 22%;
-    --ring: 38 85% 55%;
+    --ring: 43 74% 49%;
   }
 }
 
@@ -101,13 +101,14 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
   }
 }
 
 @layer components {
   .text-gradient-accent {
-    background: linear-gradient(135deg, hsl(38 85% 55%) 0%, hsl(30 80% 50%) 100%);
+    background: linear-gradient(135deg, hsl(43 74% 55%) 0%, hsl(38 65% 42%) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
